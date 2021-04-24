@@ -1,0 +1,19 @@
+Genus 
+Cells area Power(nW) time(ns):
+Direct 41 214.203 13902.206 896
+
+MUX 99 576 45659.656 1649
+ 
+Precom 43 215 14194.275 914
+
+serial 95 694 13059.470 1200
+
+INNVOUS
+area(uWm2) Power(nW):
+Direct same 0.007695
+
+MUX 576 0.0264
+ 
+Precom	215.7165 0.00766
+
+serial 663.0444  0.05328669

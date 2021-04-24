@@ -1,0 +1,25 @@
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'p4_not0001'
+  Clock period: 3.842ns (frequency: 260.251MHz)
+  Total number of paths / destination ports: 3 / 1
+-------------------------------------------------------------------------
+Delay:               3.842ns (Levels of Logic = 4)
+  Source:            p4 (LATCH)
+  Destination:       p4 (LATCH)
+  Source Clock:      p4_not0001 falling
+  Destination Clock: p4_not0001 falling
+
+  Data Path: p4 to p4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               8   0.588   0.673  p4 (p4)
+     LUT3:I2->O            1   0.612   0.000  Mmux__varindex0000_8 (Mmux__varindex0000_8)
+     MUXF5:I1->O           1   0.278   0.000  Mmux__varindex0004_7_f5 (Mmux__varindex0004_7_f5)
+     MUXF6:I1->O           1   0.451   0.360  Mmux__varindex0004_6_f6 (Mmux__varindex0004_6_f6)
+     LUT4:I3->O            1   0.612   0.000  p4_mux00002 (p4_mux0000)
+     LD:D                      0.268          p4
+    ----------------------------------------
+    Total                      3.842ns (2.809ns logic, 1.033ns route)
+                                       (73.1% logic, 26.9% route)

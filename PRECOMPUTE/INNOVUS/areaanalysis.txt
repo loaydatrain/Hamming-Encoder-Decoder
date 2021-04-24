@@ -1,0 +1,5 @@
+Depth  Name                  #Inst  Area (um^2)
+-----------------------------------------------
+0      hamming_precompute    43     215.7165
+1
+

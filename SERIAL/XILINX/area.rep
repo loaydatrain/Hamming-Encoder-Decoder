@@ -1,0 +1,12 @@
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       48  out of   4656     1%  
+ Number of Slice Flip Flops:              5  out of   9312     0%  
+ Number of 4 input LUTs:                 92  out of   9312     0%  
+ Number of IOs:                          38
+ Number of bonded IOBs:                  37  out of    232    15%  
+    IOB Flip Flops:                      21
